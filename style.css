@@ -1,6 +1,6 @@
 body {
     font-family: Montserrat, sans-serif;
-	margin: 0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-size: calc(0.7em + 1vmin);
@@ -9,7 +9,7 @@ body {
 }
 
 .heading {
-    background-image: url("/Images/banner.jpg");
+    background-image: url("Images/banner.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -69,13 +69,16 @@ h1 {
     padding: 20px;
     margin: 30px 0px 30px 0px;
 }
-.event {
+.event h3 {
     text-align: center;
     padding: 20px;
     line-height: 1.8rem;
 }
-
-
+#underline {
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: 800;
+}
 .grid {
    display: flex;
    max-width: 400px;
