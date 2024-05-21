@@ -84,11 +84,13 @@ h1 {
    max-width: 400px;
    max-height: auto;
    padding: 5px;
+   border-style: double;
+   margin: 5px;
 }
 
 .grid img {
     width: 100%;
-    padding: 5% 3% 0% 0%;
+    padding: 0% 0% 0% 0%;
 }
 
 blockquote {
